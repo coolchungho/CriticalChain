@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  criticalchain:
+    image: ${DOCKER_REGISTRY}criticalchain
+    build:
+      context: .
+      dockerfile: CriticalChain/Dockerfile

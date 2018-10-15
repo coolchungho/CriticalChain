@@ -11,7 +11,6 @@ namespace CriticalChain.Models
     {
         public TaskContext(DbContextOptions<TaskContext> options) : base(options)
         {
-
         }
             public DbSet<TaskModel> Tasks { get; set; }
     }
